@@ -192,40 +192,15 @@ img {
     color: #ffbc00;
     padding-bottom: 0.4rem; }
 
-#home-b .stats {
+.items{
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
-  #home-b .stats li {
-    line-height: 2; }
-    #home-b .stats li.stats-title {
-      font-size: 1.5rem; }
-    #home-b .stats li.stats-number {
-      font-size: 2rem;
-      font-weight: bold; }
-    #home-b .stats li div {
-      padding: 3rem 0; }
-      #home-b .stats li div:nth-child(odd) {
-        background-color: #f4f4f4; }
-      #home-b .stats li div:nth-child(even) {
-        background-color: #ccc; }
+  grid-template-columns: repeat(2,1fr);
+   
+}
 
-#main-footer {
-  background: #333;
-  color: white;
-  height: 5rem; }
-  #main-footer .footer-content {
-    display: flex;
-    justify-content: space-between;
-    height: 5rem;
-    align-items: center; }
-    #main-footer .footer-content .social .fab {
-      margin-right: 1rem;
-      border: 2px #fff solid;
-      border-radius: 50%;
-      height: 20px;
-      width: 20px;
-      line-height: 20px;
-      text-align: center;
-      padding: 0.5rem; }
-      #main-footer .footer-content .social .fab:hover {
-        background: #ffbc00; }
+.attached-link{
+  color: blue;
+}
+.attached-link:hover{
+  color: #7fe77f;
+}
